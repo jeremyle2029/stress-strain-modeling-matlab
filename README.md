@@ -8,5 +8,6 @@ An automated material engineering analysis tool built in MATLAB to process raw e
 - **Automated Data Processing:** Converts raw force and displacement vectors into true stress and strain matrix values with built-in data validation.
 
 ## File Structure
-- `main_analysis.m` - The primary execution script that handles the data import, offsets, and numerical solving loops.
-- `piecewise_fit.m` - Contains the custom regression algorithms for the shifting deformation regions.
+- `Ma7.m` - The primary execution script that imports experimental data, executes the 0.2% offset solver, and runs the piecewise regression modeling loops.
+- `Force.csv` - Raw experimental data file containing the measured force vectors from the tensile test.
+- `Elongation.csv` - Raw experimental data file containing the corresponding displacement and extension vectors.
